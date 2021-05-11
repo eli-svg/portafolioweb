@@ -1,0 +1,74 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: #CD1212;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive;
+}
+body {
+  background-image: url('IMAGES/FONDO1.png');
+  background-size: cover;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+}
+.footer-link{
+  font-family: 'Bebas Neue', cursive;
+  color:#CD1212;
+}
+p{
+  font-family: 'Work Sans', sans-serif;
+}
+.logo {
+  position: relative;
+}
+.hero-image {
+  background-image: url("../IMAGES/FONDO1.png");
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  color:#CD1212;
+  }
+.hero-text button {
+  border: none;
+  font-family: 'Bebas Neue', cursive;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: #EDEADC;
+  background-color: #CD1212;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: #EDEADC;
+  }
+  p{
+    color: #EDEADC;
+  }
+font-family: 'Bebas Neue', cursive;
+font-family: 'Work Sans', sans-serif;
